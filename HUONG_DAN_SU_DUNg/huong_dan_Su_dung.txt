@@ -1,0 +1,18 @@
+b1: tải về
+b2: tạo file .env từ env.example
+b3: gắn database dô chỗ "DB_DATABASE" trong ".env" mới đc tạo ra
+b4: chạy composer update
+b5: composer dump-autoload
+b6: php artisan key:generate
+b7: chạy bth
+/-----------------------------
+bỏ cái này trong .env nếu có tích hợp MAIL
+/-----------------------------
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=truongngo.050902@gmail.com
+MAIL_PASSWORD=qxqtjrytnrbyoxji
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS=truongngo.050902@gmail.com
+MAIL_FROM_NAME="${APP_NAME}"
